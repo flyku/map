@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Document</title>
+    <script src="/lib/jquery.js" type="text/javascript"></script>
+    <script src="/plugins/colpick.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/src/styles/colpick.css" type="text/css" />
+</head>
+
+<body>
+    <button id="picker">Show Color Picker</button>
+    <div id="colorSelector"></div>
+</body>
+<script>
+$("#picker").on('click', function(event) {
+    $('#colorSelector').show().colpick({
+        flat: true,
+        layout: 'full',
+        submit: true,
+        width: 500,
+        colorScheme: 'dark',
+        color: "#bbbbbb",
+        onChange: function(hsb, hex, rgb, el, bySetColor) {
+
+        },
+        onSubmit: function(hsb, hex, rgb, el) {
+            //处理你的业务需求
+            $('#colorSelector').hide();
+            console.log(el);
+        }
+    }).keyup(function() {
+        $(this).colpickSetColor(this.value);
+    }).colpickSetColor("传入一个默认的颜色");
+});
+</script>
+
+</html>

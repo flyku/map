@@ -1,0 +1,148 @@
+<link rel="stylesheet" href="./xxx.css" role="debug">
+
+<div style="height:90px;"></div>
+<!-- <div class="detail" style="">
+	<h4>详细信息</h4>
+	<div class="conten">
+		<dl>
+			<dt><img src="1.jpg" alt=""></dt>
+			<dd>
+				<div class="p">
+					<div style="display:-webkit-flex;">
+						<span>性别</span>
+						<div><b>男</b> &nbsp&nbsp&nbsp&nbsp&nbsp <b>短发</b></div>
+					</div>
+				</div>
+				<div class="p">
+					<div style="display:-webkit-flex;">
+						<span>上身</span>
+						<div><b>短袖,</b><b>T-shirt,</b><b>条纹</b></div>
+					</div>
+					<div class="color">
+						<div><b>颜色</b><i></i></div>
+					</div>
+				</div>
+				<div class="p">
+					
+					<div style="display:-webkit-flex;">
+						<span>下身</span>
+						<div><b>长裤,</b><b>长牛仔裤,</b><b>长牛仔裤,</b><b>裙子</b></div>
+					</div>
+					<div class="color">
+						<div><b>颜色</b><i></i></div>
+					</div>
+				</div>
+				<div class="p">
+					<div style="display:-webkit-flex;">
+						<span>其他</span>
+						<div><b>戴帽子,</b><b>戴眼镜,</b><b>口罩</b></div>
+					</div>
+					<div class="color">
+						<div><b>背包</b><i></i></div>
+						<div><b>背包</b><i></i></div>
+					</div>
+				</div>
+			</dd>
+		</dl>
+	</div>
+</div> -->
+<div style="width:100%;-webkit-flex:1;">
+	<div id="iscroll">
+		<div class="iscroll">
+			<ul class="lister">
+				<% for(i=0;i<data.length;i++){ %>
+					<li><%= data[i].userName %></li>
+				<% } %>
+				<li class="lastli">查看更多<span><img src="3.png" alt=""></span></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<style>
+#iscroll{
+	position:relative;
+	width:100%;height:100%;
+	overflow:hidden;
+}
+.iscroll{
+	position:absolute;
+	left:0;top:0;
+}
+.lister li{
+	float: left;
+	padding: 19px;
+}
+.lister .lastli{
+	clear:both;
+	width:84%;height:58px;
+	background:#22c1bd;
+	color:#fff;
+	text-align:center;
+	line-height:30px;
+	border-radius:5px;
+	margin-left:4%;
+	font-size:15px;
+}
+.lastli span{
+	display:inline-block;
+	width:17px;height:12px;
+	margin-left:5px
+}
+.detail{
+	width:100%;height:310px;
+	background:#323232;
+}
+.detail h4{
+	line-height: 37px;
+	border-bottom: 1px solid #535353;
+	padding-left: 14px;
+}
+.conten{
+	width: 100%;
+}
+.conten dl{
+	display: -webkit-flex;
+	padding: 15px 0 0 22px;
+}
+.conten dt{
+	width: 168px;height: 200px;
+	border: 1px solid #c3c3c3;
+}
+.conten dt img{
+	width: 100%;height: 100%;
+}
+.conten dd{margin-left: 10px;}
+.conten dd .p{
+	margin-bottom: 20px;
+}
+.conten span{
+	color: #4eeafc;
+	font-size: 14px;
+	margin-right: 10px;
+	display: inline-block;height:100%;
+}
+.conten b{
+	color: #fff;
+	font-size: 12px;
+	font-weight: normal;
+}
+.conten i{
+	width: 22px;height: 12px;
+	background: #fff;
+	padding: 0 12px;
+	border: 1px solid #4eeafc;
+	margin-left: 10px;
+}
+.conten .color{
+	margin-left: 48px;
+}
+.color div{margin-top: 5px;}
+</style>
+<script>
+	setTimeout(function(){
+		var myScroll = new IScroll('#iscroll', {
+            scrollbars: true,
+            mouseWheel: true
+        })
+	},2000)
+</script>

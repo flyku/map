@@ -1,0 +1,64 @@
+canvas {
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    display: inline-block;
+}
+
+video {
+    display: block;
+    margin-top: 25px;
+    background: #000;
+    width: 100%;
+}
+
+.videoClose {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    right: 5px;
+    z-index: 1000000;
+    cursor: pointer;
+    background: url(./1.png) no-repeat;
+}
+
+.panel-body {
+    position: absolute;
+    top: -25px;
+}
+
+.track-attribute-wrap {
+    position: absolute;
+}
+
+
+/*框样式 */
+
+.track-attr {
+    color: #fff;
+}
+
+button[role="tools"] {
+    width: 30px;
+    height: 18px;
+    font-size: 12px;
+}
+
+.video-panel .tool-container {
+    position: absolute;
+    z-index: 10;
+}
+
+.track-attribute-wrap {
+    position: absolute;
+    width: 429px;
+    left: 0px;
+}
+
+.panel {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    height: auto;
+}

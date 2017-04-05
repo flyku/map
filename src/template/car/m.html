@@ -1,0 +1,69 @@
+<link href="./xxx.css" role="debug">
+<style>
+	#iscroll{
+		position:relative;
+		width:100%;height:100%;
+		overflow:hidden;
+	}
+	.iscroll{
+		position:absolute;
+		left:0;top:0;
+	}
+	.lister li{
+		float: left;padding: 19px;
+	}
+	.lister .lastli{
+		clear:both;
+		width:84%;height:58px;
+		background:#22c1bd;
+		color:#fff;
+		text-align:center;
+		line-height:58px;
+		border-radius:5px;
+		margin-left:4%;
+		font-size:15px;
+	}
+	.lastli span{
+		display:inline-block;
+		width:17px;height:12px;
+		margin-left:5px
+	}
+</style>
+<div style="height:90px;"></div>
+<div style="width:100%;-webkit-flex:1;">
+	<div id="iscroll">
+		<div class="iscroll">
+			<ul class="lister">
+				<li><img src="1.jpg" alt=""></li>
+				<li><img src="1.jpg" alt=""></li>
+				<li><img src="1.jpg" alt=""></li>
+				<li><img src="1.jpg" alt=""></li>
+				<li><img src="1.jpg" alt=""></li>
+				<li><img src="1.jpg" alt=""></li>
+				<li><img src="1.jpg" alt=""></li>
+				<li><img src="1.jpg" alt=""></li>
+				<li><img src="1.jpg" alt=""></li>
+				<li><img src="1.jpg" alt=""></li>
+				<li><img src="1.jpg" alt=""></li>
+				<li><img src="1.jpg" alt=""></li>
+				<li><img src="1.jpg" alt=""></li>
+				<li><img src="1.jpg" alt=""></li>
+				<li><img src="1.jpg" alt=""></li>
+				<li><img src="1.jpg" alt=""></li>
+				<li><img src="1.jpg" alt=""></li>
+				<li class="lastli">
+					查看更多<span>
+					<img src="3.png" alt=""></span>
+				</li>					
+			</ul>
+		</div>
+	</div>
+</div>
+<script>
+	setTimeout(function(){
+		var myScroll = new IScroll('#iscroll', {
+            scrollbars: true,
+            mouseWheel: true
+        })
+	},1000)
+</script>

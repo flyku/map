@@ -1,0 +1,182 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: "微软雅黑";
+}
+
+dl,
+dt,
+dd,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p {
+    font-size: 12px;
+}
+
+dt {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    border-bottom: 1px dotted #000;
+    margin: 5px 0;
+}
+
+dd {
+    padding: 5px 0 0 5px;
+}
+
+li {
+    line-height: 28px;
+}
+
+#allmap {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.result {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 170px;
+    height: 20px;
+    font-size: 12px;
+}
+
+#map {
+    height: 100%;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.wins {
+    min-width: 300px;
+    min-height: 150px;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+    background: #f00;
+}
+
+#searchList{
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+}
+#search{
+    width:245px;height:600px;
+    background:#323742;
+    position:absolute;
+    left: 0;top:120px;
+    padding: 8px 0 0 25px; 
+    overflow: hidden;
+}
+#center{
+    width:0px;height:520px;
+    background: #393f4b;
+    position: absolute;
+    left: 50%;top: 90px;
+    margin-left: -541px;
+    display: -webkit-flex;
+    display: none;
+    -webkit-flex-direction:column;
+    
+}
+#video{
+    width:600px;
+    height:310px;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    left: 50%;
+    top: 190px;
+    margin-left: -361px;
+    display: -webkit-flex;
+    display: none;
+    -webkit-flex-direction:column;
+    
+}
+#searchCar{
+    width: 0;height: 490px;
+    position: absolute;
+    top: 80px;left: 50%;
+    margin-left: -450px;
+}
+#searchMan{
+    width: 0;
+    height: 540px;
+    position: absolute;
+    top: 61px;
+    left: 55%;
+    margin-left: -500px;
+    display: -webkit-flex;
+    -webkit-flex-direction:column;
+}
+#search-Man{
+    width: 1000px;
+    height: 0px;
+    position: absolute;
+    top:90px;left: 50%;
+    margin-left: -500px;
+    display: -webkit-flex;
+    -webkit-flex-direction:column;
+}
+#searchCarFinally{
+    position: relative;
+    width: 245px;height: 447px;
+    background: #313742;
+    margin-top: 21px;
+    float: left;
+}
+#searchCarList{
+    width:405px;height:100%;
+    background:rgba(0,0,0,.6);
+    position:absolute;
+    right: 0;
+    margin-left:-339px;
+    top:0;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+    z-index: 10;
+}
+/* 模仿下拉 */
+    .xla{
+        height:30px;width:200px;position:relative;
+    }
+    .xla .txt{
+        height:100%;width:100%;border:1px solid #9191b7;border-radius:5px;overflow:hidden;
+    }
+    .xla .txt input{
+        border:none;width:85%;height:100%;float:left;font-size: 17px;color: #ccc;
+    }
+    .xla .txt i{
+        display:inline-block;width:15%;height:100%;background:#5e6470;position:relative;
+    }
+    .xla .txt b{
+        width: 0;height: 0;display:inline-block;border-left: 6px solid transparent;
+        border-right: 6px solid transparent;border-top: 6px solid #fff;
+        position:absolute;left:50%;top:50%;margin-left:-6px;margin-top:-3px;
+    }
+    .xla ul{
+        position:absolute;top:30px;left:1px;background:#fff;width:100%;border-radius:4px; display: none;
+    }
+    .xla ul li{
+        line-height: 33px;border-bottom: 1px solid #dedede;padding-left: 10px;
+        cursor: pointer;
+    }
+    .xla ul li:last-child{
+        border: none;
+    }
+
+/* 模仿下拉 */

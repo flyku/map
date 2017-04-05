@@ -1,0 +1,32 @@
+
+<link rel="stylesheet" href="./xxx.css" role="debug">
+<div class="car-detail">
+	<h4>详细信息</h4>
+	<div class="car-conten">
+		<dl>
+			<dt><img src="<%= data.img_path %>" alt=""></dt>
+			<dd>
+				<div class="p">
+					<div style="display:-webkit-flex;">
+						<span>车辆分类</span>
+						<div><b><%= data.carCatory %></b> &nbsp&nbsp&nbsp&nbsp&nbsp 
+						</div>
+					</div>
+				</div>
+				<div class="p">
+					<div style="display:-webkit-flex;">
+						<span>车辆颜色</span>
+						<div><i style="background:rgb(<%= lab2rgb(labDell(data.carColor)) %>)"></i></div>
+					</div>
+				</div>
+				<div class="p">
+					
+					<div style="display:-webkit-flex;">
+						<span>车辆品牌</span>
+						<div><b><%= data.carName %></b></div>
+					</div>
+				</div>
+			</dd>
+		</dl>
+	</div>
+</div>

@@ -1,0 +1,15 @@
+
+<link rel="stylesheet" href="./xxx.css" role="debug">
+<div id="wrapper">
+	<div id="iscroll">
+	<div id="detail"></div>
+		<!-- <li><img src="1.jpg" alt=""></li> -->
+		<ul id="lister" class="lister clearfix">
+			<% for(i=0;i<data.length;i++){ %>
+				<li><img width="80" height="80" data-img="<%= i %>" src="<%= data[i].img_path %>" alt=""></li>
+			<% } %>
+		</ul>
+		<div id="lastli" class="lastli">加载更多</div>
+	</div>
+</div>
+

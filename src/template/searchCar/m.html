@@ -1,0 +1,65 @@
+<link rel="stylesheet" href="./xxx.css" role="debug">
+<div id="searchCarFinally"></div>
+<div class="right-car">
+    <div class="tops">
+        <span style="color:#fff;">搜索条件</span>
+        <i style="position:absolute; top: 4px;right: 15px;"><img id="closes" src="1.png"></i>
+    </div>
+    <div class="bottoms">
+        <div class="b_tops">
+            <span>车辆分类</span>
+            <div class="xla">
+                <div class="txt" value="">
+                    <input type="text" disabled="true">
+                    <i><b></b></i>
+                </div>
+                <ul>
+                    <li category="1">未知</li>
+                    <li category="1">不限</li>
+                    <li category="1">行人</li>
+                    <li category="1">小汽车</li>
+                    <li category="1">SUV</li>
+                    <li category="1">面包车</li>
+                    <li category="1">巴士</li>
+                    <li category="1">皮卡</li>
+                    <li category="1">卡车</li>
+                    <li category="1">自行车</li>
+                    <li category="1">摩托车</li>
+                </ul>
+            </div>
+            <span style="margin-left:10%">车辆颜色</span>
+            <div class="colorxla upcolor">
+                <div id="qq">
+                    <a href="javascript:void(0)" id="carImg" color="1"></a>
+                </div>
+                <div class="upright">
+                    <i class="bcolor"></i>
+                </div>
+            </div>
+        </div>
+        <div class="b_boms">
+            <span>车辆品牌</span>
+            <div class="xla brand-xla">
+               <input type="text" class="txt autosearch3">
+            </div>
+
+             <span style="margin-left: 55px;">车牌号</span>
+            <div class="xla num-xla">
+                <input type="text" class="text">
+            </div>
+        </div>
+        <div class="load">
+            <img src="2.png" alt="上传">
+            <div class="upload-btn btn-old">
+            <input type="file" name="" id="upload-btn">
+            </div>
+            <div class="upload-img "></div>
+        </div>
+        <p id="search-man">搜索</p>
+    </div>
+</div>
+<script>
+    $(document).on('click', "#closes", function(event) {
+        $("#searchCar").hide();
+    });
+</script>

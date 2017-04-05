@@ -1,0 +1,47 @@
+
+<link rel="stylesheet" href="./xxx.css" role="debug">
+<div class="details">
+	<h4>详细信息</h4>
+	<div class="conten">
+		<dl>
+			<dt><img src="<%= data.img_path %>" alt=""></dt>
+			<dd>
+				<div class="p">
+					<div style="display:-webkit-flex;">
+						<span>性别</span>
+						<div><b><%= data.header %></b> &nbsp&nbsp&nbsp&nbsp&nbsp 
+						</div>
+					</div>
+				</div>
+				<div class="p">
+					<div style="display:-webkit-flex;">
+						<span>上身</span>
+						<div><b><%= data.up %></b></div>
+					</div>
+					<div class="color">
+						<div><b>颜色</b><i style="background:rgb(<%= lab2rgb(labDell(data.upColor)) %>)"></i></div>
+					</div>
+				</div>
+				<div class="p">
+					
+					<div style="display:-webkit-flex;">
+						<span>下身</span>
+						<div><b><%= data.down %></b></div>
+					</div>
+					<div class="color">
+						<div><b>颜色</b><i style="background:rgb(<%= lab2rgb(labDell(data.downColor)) %>)"></i></div>
+					</div>
+				</div>
+				<div class="p">
+					<div style="display:-webkit-flex;">
+						<span>其他</span>
+						<div><b><%= data.others %></b></div>
+					</div>
+					<div class="color">
+						<div><b>背包</b><i style="background:rgb(<%= lab2rgb(labDell(data.upColor)) %>)"></i></div>
+					</div>
+				</div>
+			</dd>
+		</dl>
+	</div>
+</div>

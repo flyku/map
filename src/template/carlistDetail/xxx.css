@@ -1,0 +1,41 @@
+.car-conten{
+	width: 100%;
+}
+.car-detail h4{
+	line-height: 37px;
+	border-bottom: 1px solid #535353;
+	padding-left: 14px;
+}
+.car-conten dl{
+	display: -webkit-flex;
+	padding: 15px 0 0 22px;
+}
+.car-conten dt{
+	width: 168px;height: 200px;
+	border: 1px solid #c3c3c3;
+}
+.car-conten dt img{
+	width: 100%;height: 100%;
+}
+.car-conten dd .p{
+	margin-bottom: 0px;
+}
+.car-conten span{
+	color: #4eeafc;
+	font-size: 14px;
+	margin-right: 10px;
+	display: inline-block;height:100%;
+}
+.car-conten b{
+	color: #fff;
+	font-size: 12px;
+	font-weight: normal;
+}
+.car-conten i{
+	width: 22px;
+    height: 12px;
+    background: #fff;
+    padding: 0 12px;
+    border: 1px solid #4eeafc;
+    margin-left: 10px;
+}
