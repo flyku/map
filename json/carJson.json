@@ -6,18 +6,18 @@
             "12": {
                 "tracks": {
                     "img_path": [
-                        "http://10.101.6.26:8092/Data/img/12/vehicle-245.jpg",
-                        "http://10.101.6.26:8092/Data/img/12/vehicle-256.jpg",
-                        "http://10.101.6.26:8092/Data/img/12/vehicle-301.jpg",
-                        "http://10.101.6.26:8092/Data/img/12/vehicle-302.jpg",
-                        "http://10.101.6.26:8092/Data/img/12/vehicle-256.jpg",
-                        "http://10.101.6.26:8092/Data/img/12/vehicle-293.jpg",
-                        "http://10.101.6.26:8092/Data/img/12/vehicle-200.jpg",
-                        "http://10.101.6.26:8092/Data/img/12/vehicle-245.jpg",
-                        "http://10.101.6.26:8092/Data/img/12/vehicle-267.jpg",
-                        "http://10.101.6.26:8092/Data/img/12/vehicle-233.jpg",
-                        "http://10.101.6.26:8092/Data/img/12/vehicle-233.jpg",
-                        "http://10.101.6.26:8092/Data/img/12/vehicle-293.jpg"
+                        "imgsHTTP/img/12/vehicle-245.jpg",
+                        "imgsHTTP/img/12/vehicle-256.jpg",
+                        "imgsHTTP/img/12/vehicle-301.jpg",
+                        "imgsHTTP/img/12/vehicle-302.jpg",
+                        "imgsHTTP/img/12/vehicle-256.jpg",
+                        "imgsHTTP/img/12/vehicle-293.jpg",
+                        "imgsHTTP/img/12/vehicle-200.jpg",
+                        "imgsHTTP/img/12/vehicle-245.jpg",
+                        "imgsHTTP/img/12/vehicle-267.jpg",
+                        "imgsHTTP/img/12/vehicle-233.jpg",
+                        "imgsHTTP/img/12/vehicle-233.jpg",
+                        "imgsHTTP/img/12/vehicle-293.jpg"
                     ]
                 },
                 "position": {
@@ -38,7 +38,7 @@
                     "12_233",
                     "12_293"
                 ],
-                "img_path": "http://10.101.6.26:8092/Data/img/12/vehicle-245.jpg",
+                "img_path": "imgsHTTP/img/12/vehicle-245.jpg",
                 "id": 12,
                 "video_data": {
                     "frames": [
@@ -9555,24 +9555,24 @@
                     "tid": 245,
                     "type": "vehicle",
                     "video_id": "12",
-                    "video_path": "http://10.101.6.26:8092/Data/video/2017-03-27/1490593339W5fqlP.mp4"
+                    "video_path": "imgsHTTP/video/2017-03-27/1490593339W5fqlP.mp4"
                 }
             },
             "13": {
                 "tracks": {
                     "img_path": [
-                        "http://10.101.6.26:8092/Data/img/13/vehicle-0.jpg",
-                        "http://10.101.6.26:8092/Data/img/13/vehicle-19.jpg",
-                        "http://10.101.6.26:8092/Data/img/13/vehicle-4.jpg",
-                        "http://10.101.6.26:8092/Data/img/13/vehicle-11.jpg",
-                        "http://10.101.6.26:8092/Data/img/13/vehicle-0.jpg",
-                        "http://10.101.6.26:8092/Data/img/13/vehicle-4.jpg",
-                        "http://10.101.6.26:8092/Data/img/13/vehicle-20.jpg",
-                        "http://10.101.6.26:8092/Data/img/13/vehicle-27.jpg",
-                        "http://10.101.6.26:8092/Data/img/13/vehicle-4.jpg",
-                        "http://10.101.6.26:8092/Data/img/13/vehicle-21.jpg",
-                        "http://10.101.6.26:8092/Data/img/13/vehicle-17.jpg",
-                        "http://10.101.6.26:8092/Data/img/13/vehicle-11.jpg"
+                        "imgsHTTP/img/13/vehicle-0.jpg",
+                        "imgsHTTP/img/13/vehicle-19.jpg",
+                        "imgsHTTP/img/13/vehicle-4.jpg",
+                        "imgsHTTP/img/13/vehicle-11.jpg",
+                        "imgsHTTP/img/13/vehicle-0.jpg",
+                        "imgsHTTP/img/13/vehicle-4.jpg",
+                        "imgsHTTP/img/13/vehicle-20.jpg",
+                        "imgsHTTP/img/13/vehicle-27.jpg",
+                        "imgsHTTP/img/13/vehicle-4.jpg",
+                        "imgsHTTP/img/13/vehicle-21.jpg",
+                        "imgsHTTP/img/13/vehicle-17.jpg",
+                        "imgsHTTP/img/13/vehicle-11.jpg"
                     ]
                 },
                 "position": {
@@ -9593,7 +9593,7 @@
                     "13_17",
                     "13_11"
                 ],
-                "img_path": "http://10.101.6.26:8092/Data/img/13/vehicle-0.jpg",
+                "img_path": "imgsHTTP/img/13/vehicle-0.jpg",
                 "id": 13,
                 "video_data": {
                     "frames": [
@@ -16806,24 +16806,24 @@
                     "tid": 0,
                     "type": "vehicle",
                     "video_id": "13",
-                    "video_path": "http://10.101.6.26:8092/Data/video/2017-03-27/1490593361egvzXo.mp4"
+                    "video_path": "imgsHTTP/video/2017-03-27/1490593361egvzXo.mp4"
                 }
             },
             "14": {
                 "tracks": {
                     "img_path": [
-                        "http://10.101.6.26:8092/Data/img/14/vehicle-4.jpg",
-                        "http://10.101.6.26:8092/Data/img/14/vehicle-40.jpg",
-                        "http://10.101.6.26:8092/Data/img/14/vehicle-54.jpg",
-                        "http://10.101.6.26:8092/Data/img/14/vehicle-51.jpg",
-                        "http://10.101.6.26:8092/Data/img/14/vehicle-54.jpg",
-                        "http://10.101.6.26:8092/Data/img/14/vehicle-11.jpg",
-                        "http://10.101.6.26:8092/Data/img/14/vehicle-44.jpg",
-                        "http://10.101.6.26:8092/Data/img/14/vehicle-17.jpg",
-                        "http://10.101.6.26:8092/Data/img/14/vehicle-51.jpg",
-                        "http://10.101.6.26:8092/Data/img/14/vehicle-17.jpg",
-                        "http://10.101.6.26:8092/Data/img/14/vehicle-27.jpg",
-                        "http://10.101.6.26:8092/Data/img/14/vehicle-11.jpg"
+                        "imgsHTTP/img/14/vehicle-4.jpg",
+                        "imgsHTTP/img/14/vehicle-40.jpg",
+                        "imgsHTTP/img/14/vehicle-54.jpg",
+                        "imgsHTTP/img/14/vehicle-51.jpg",
+                        "imgsHTTP/img/14/vehicle-54.jpg",
+                        "imgsHTTP/img/14/vehicle-11.jpg",
+                        "imgsHTTP/img/14/vehicle-44.jpg",
+                        "imgsHTTP/img/14/vehicle-17.jpg",
+                        "imgsHTTP/img/14/vehicle-51.jpg",
+                        "imgsHTTP/img/14/vehicle-17.jpg",
+                        "imgsHTTP/img/14/vehicle-27.jpg",
+                        "imgsHTTP/img/14/vehicle-11.jpg"
                     ]
                 },
                 "position": {
@@ -16844,7 +16844,7 @@
                     "14_27",
                     "14_11"
                 ],
-                "img_path": "http://10.101.6.26:8092/Data/img/14/vehicle-4.jpg",
+                "img_path": "imgsHTTP/img/14/vehicle-4.jpg",
                 "id": 14,
                 "video_data": {
                     "frames": [
@@ -29961,24 +29961,24 @@
                     "tid": 4,
                     "type": "vehicle",
                     "video_id": "14",
-                    "video_path": "http://10.101.6.26:8092/Data/video/2017-03-27/1490593381RmJfV0.mp4"
+                    "video_path": "imgsHTTP/video/2017-03-27/1490593381RmJfV0.mp4"
                 }
             },
             "15": {
                 "tracks": {
                     "img_path": [
-                        "http://10.101.6.26:8092/Data/img/15/vehicle-4.jpg",
-                        "http://10.101.6.26:8092/Data/img/15/vehicle-2.jpg",
-                        "http://10.101.6.26:8092/Data/img/15/vehicle-4.jpg",
-                        "http://10.101.6.26:8092/Data/img/15/vehicle-17.jpg",
-                        "http://10.101.6.26:8092/Data/img/15/vehicle-0.jpg",
-                        "http://10.101.6.26:8092/Data/img/15/vehicle-4.jpg",
-                        "http://10.101.6.26:8092/Data/img/15/vehicle-17.jpg",
-                        "http://10.101.6.26:8092/Data/img/15/vehicle-19.jpg",
-                        "http://10.101.6.26:8092/Data/img/15/vehicle-0.jpg",
-                        "http://10.101.6.26:8092/Data/img/15/vehicle-4.jpg",
-                        "http://10.101.6.26:8092/Data/img/15/vehicle-2.jpg",
-                        "http://10.101.6.26:8092/Data/img/15/vehicle-11.jpg"
+                        "imgsHTTP/img/15/vehicle-4.jpg",
+                        "imgsHTTP/img/15/vehicle-2.jpg",
+                        "imgsHTTP/img/15/vehicle-4.jpg",
+                        "imgsHTTP/img/15/vehicle-17.jpg",
+                        "imgsHTTP/img/15/vehicle-0.jpg",
+                        "imgsHTTP/img/15/vehicle-4.jpg",
+                        "imgsHTTP/img/15/vehicle-17.jpg",
+                        "imgsHTTP/img/15/vehicle-19.jpg",
+                        "imgsHTTP/img/15/vehicle-0.jpg",
+                        "imgsHTTP/img/15/vehicle-4.jpg",
+                        "imgsHTTP/img/15/vehicle-2.jpg",
+                        "imgsHTTP/img/15/vehicle-11.jpg"
                     ]
                 },
                 "position": {
@@ -29999,7 +29999,7 @@
                     "15_2",
                     "15_11"
                 ],
-                "img_path": "http://10.101.6.26:8092/Data/img/15/vehicle-4.jpg",
+                "img_path": "imgsHTTP/img/15/vehicle-4.jpg",
                 "id": 15,
                 "video_data": {
                     "frames": [
@@ -36564,24 +36564,24 @@
                     "tid": 4,
                     "type": "vehicle",
                     "video_id": "15",
-                    "video_path": "http://10.101.6.26:8092/Data/video/2017-03-27/1490593399lY4fF3.mp4"
+                    "video_path": "imgsHTTP/video/2017-03-27/1490593399lY4fF3.mp4"
                 }
             },
             "16": {
                 "tracks": {
                     "img_path": [
-                        "http://10.101.6.26:8092/Data/img/16/vehicle-28.jpg",
-                        "http://10.101.6.26:8092/Data/img/16/vehicle-3.jpg",
-                        "http://10.101.6.26:8092/Data/img/16/vehicle-27.jpg",
-                        "http://10.101.6.26:8092/Data/img/16/vehicle-32.jpg",
-                        "http://10.101.6.26:8092/Data/img/16/vehicle-27.jpg",
-                        "http://10.101.6.26:8092/Data/img/16/vehicle-28.jpg",
-                        "http://10.101.6.26:8092/Data/img/16/vehicle-27.jpg",
-                        "http://10.101.6.26:8092/Data/img/16/vehicle-4.jpg",
-                        "http://10.101.6.26:8092/Data/img/16/vehicle-36.jpg",
-                        "http://10.101.6.26:8092/Data/img/16/vehicle-17.jpg",
-                        "http://10.101.6.26:8092/Data/img/16/vehicle-32.jpg",
-                        "http://10.101.6.26:8092/Data/img/16/vehicle-11.jpg"
+                        "imgsHTTP/img/16/vehicle-28.jpg",
+                        "imgsHTTP/img/16/vehicle-3.jpg",
+                        "imgsHTTP/img/16/vehicle-27.jpg",
+                        "imgsHTTP/img/16/vehicle-32.jpg",
+                        "imgsHTTP/img/16/vehicle-27.jpg",
+                        "imgsHTTP/img/16/vehicle-28.jpg",
+                        "imgsHTTP/img/16/vehicle-27.jpg",
+                        "imgsHTTP/img/16/vehicle-4.jpg",
+                        "imgsHTTP/img/16/vehicle-36.jpg",
+                        "imgsHTTP/img/16/vehicle-17.jpg",
+                        "imgsHTTP/img/16/vehicle-32.jpg",
+                        "imgsHTTP/img/16/vehicle-11.jpg"
                     ]
                 },
                 "position": {
@@ -36602,7 +36602,7 @@
                     "16_32",
                     "16_11"
                 ],
-                "img_path": "http://10.101.6.26:8092/Data/img/16/vehicle-28.jpg",
+                "img_path": "imgsHTTP/img/16/vehicle-28.jpg",
                 "id": 16,
                 "video_data": {
                     "frames": [
@@ -39063,24 +39063,24 @@
                     "tid": 28,
                     "type": "vehicle",
                     "video_id": "16",
-                    "video_path": "http://10.101.6.26:8092/Data/video/2017-03-27/1490593416oLHvLf.mp4"
+                    "video_path": "imgsHTTP/video/2017-03-27/1490593416oLHvLf.mp4"
                 }
             },
             "17": {
                 "tracks": {
                     "img_path": [
-                        "http://10.101.6.26:8092/Data/img/17/vehicle-3.jpg",
-                        "http://10.101.6.26:8092/Data/img/17/vehicle-2.jpg",
-                        "http://10.101.6.26:8092/Data/img/17/vehicle-5.jpg",
-                        "http://10.101.6.26:8092/Data/img/17/vehicle-3.jpg",
-                        "http://10.101.6.26:8092/Data/img/17/vehicle-2.jpg",
-                        "http://10.101.6.26:8092/Data/img/17/vehicle-11.jpg",
-                        "http://10.101.6.26:8092/Data/img/17/vehicle-5.jpg",
-                        "http://10.101.6.26:8092/Data/img/17/vehicle-6.jpg",
-                        "http://10.101.6.26:8092/Data/img/17/vehicle-0.jpg",
-                        "http://10.101.6.26:8092/Data/img/17/vehicle-11.jpg",
-                        "http://10.101.6.26:8092/Data/img/17/vehicle-1.jpg",
-                        "http://10.101.6.26:8092/Data/img/17/vehicle-4.jpg"
+                        "imgsHTTP/img/17/vehicle-3.jpg",
+                        "imgsHTTP/img/17/vehicle-2.jpg",
+                        "imgsHTTP/img/17/vehicle-5.jpg",
+                        "imgsHTTP/img/17/vehicle-3.jpg",
+                        "imgsHTTP/img/17/vehicle-2.jpg",
+                        "imgsHTTP/img/17/vehicle-11.jpg",
+                        "imgsHTTP/img/17/vehicle-5.jpg",
+                        "imgsHTTP/img/17/vehicle-6.jpg",
+                        "imgsHTTP/img/17/vehicle-0.jpg",
+                        "imgsHTTP/img/17/vehicle-11.jpg",
+                        "imgsHTTP/img/17/vehicle-1.jpg",
+                        "imgsHTTP/img/17/vehicle-4.jpg"
                     ]
                 },
                 "position": {
@@ -39101,7 +39101,7 @@
                     "17_1",
                     "17_4"
                 ],
-                "img_path": "http://10.101.6.26:8092/Data/img/17/vehicle-3.jpg",
+                "img_path": "imgsHTTP/img/17/vehicle-3.jpg",
                 "id": 17,
                 "video_data": {
                     "frames": [
@@ -45306,13 +45306,13 @@
                     "tid": 3,
                     "type": "vehicle",
                     "video_id": "17",
-                    "video_path": "http://10.101.6.26:8092/Data/video/2017-03-27/14905934376uoTBA.mp4"
+                    "video_path": "imgsHTTP/video/2017-03-27/14905934376uoTBA.mp4"
                 }
             }
         },
         "right_data": [
             {
-                "img_path": "http://10.101.6.26:8092/Data/img/12/vehicle-0.jpg",
+                "img_path": "imgsHTTP/img/12/vehicle-0.jpg",
                 "track_id": 0,
                 "video_id": "12",
                 "header": "女 ,短发",
@@ -45330,7 +45330,7 @@
                 "carName": "日产-----阳光"
             },
             {
-                "img_path": "http://10.101.6.26:8092/Data/img/12/vehicle-1.jpg",
+                "img_path": "imgsHTTP/img/12/vehicle-1.jpg",
                 "track_id": 1,
                 "video_id": "12",
                 "header": "女 ,短发",
@@ -45348,7 +45348,7 @@
                 "carName": "日产-----阳光"
             },
             {
-                "img_path": "http://10.101.6.26:8092/Data/img/12/vehicle-10.jpg",
+                "img_path": "imgsHTTP/img/12/vehicle-10.jpg",
                 "track_id": 10,
                 "video_id": "12",
                 "header": "女 ,短发",
@@ -45366,7 +45366,7 @@
                 "carName": "别克-----凯越"
             },
             {
-                "img_path": "http://10.101.6.26:8092/Data/img/12/vehicle-100.jpg",
+                "img_path": "imgsHTTP/img/12/vehicle-100.jpg",
                 "track_id": 100,
                 "video_id": "12",
                 "header": "女 ,短发",
@@ -45384,7 +45384,7 @@
                 "carName": "保时捷-----911"
             },
             {
-                "img_path": "http://10.101.6.26:8092/Data/img/12/vehicle-101.jpg",
+                "img_path": "imgsHTTP/img/12/vehicle-101.jpg",
                 "track_id": 101,
                 "video_id": "12",
                 "header": "女 ,短发",
@@ -45402,7 +45402,7 @@
                 "carName": "标致-----3008"
             },
             {
-                "img_path": "http://10.101.6.26:8092/Data/img/12/vehicle-102.jpg",
+                "img_path": "imgsHTTP/img/12/vehicle-102.jpg",
                 "track_id": 102,
                 "video_id": "12",
                 "header": "女 ,短发",
@@ -45420,7 +45420,7 @@
                 "carName": "别克-----凯越"
             },
             {
-                "img_path": "http://10.101.6.26:8092/Data/img/12/vehicle-103.jpg",
+                "img_path": "imgsHTTP/img/12/vehicle-103.jpg",
                 "track_id": 103,
                 "video_id": "12",
                 "header": "女 ,短发",
@@ -45438,7 +45438,7 @@
                 "carName": "别克-----凯越"
             },
             {
-                "img_path": "http://10.101.6.26:8092/Data/img/12/vehicle-104.jpg",
+                "img_path": "imgsHTTP/img/12/vehicle-104.jpg",
                 "track_id": 104,
                 "video_id": "12",
                 "header": "女 ,短发",
@@ -45456,7 +45456,7 @@
                 "carName": "捷豹-----XF"
             },
             {
-                "img_path": "http://10.101.6.26:8092/Data/img/12/vehicle-105.jpg",
+                "img_path": "imgsHTTP/img/12/vehicle-105.jpg",
                 "track_id": 105,
                 "video_id": "12",
                 "header": "女 ,短发",
@@ -45474,7 +45474,7 @@
                 "carName": "大众-----桑塔纳"
             },
             {
-                "img_path": "http://10.101.6.26:8092/Data/img/12/vehicle-106.jpg",
+                "img_path": "imgsHTTP/img/12/vehicle-106.jpg",
                 "track_id": 106,
                 "video_id": "12",
                 "header": "女 ,短发",
@@ -45492,7 +45492,7 @@
                 "carName": "保时捷-----911"
             },
             {
-                "img_path": "http://10.101.6.26:8092/Data/img/12/vehicle-107.jpg",
+                "img_path": "imgsHTTP/img/12/vehicle-107.jpg",
                 "track_id": 107,
                 "video_id": "12",
                 "header": "女 ,短发",
@@ -45510,7 +45510,7 @@
                 "carName": "大众-----迈腾"
             },
             {
-                "img_path": "http://10.101.6.26:8092/Data/img/12/vehicle-108.jpg",
+                "img_path": "imgsHTTP/img/12/vehicle-108.jpg",
                 "track_id": 108,
                 "video_id": "12",
                 "header": "女 ,短发",

@@ -166,10 +166,10 @@ define(function(require, exports, module) {
 					}, 1000);
 					
 					$.ajax({
-							url: "http://10.101.6.26:8092/Home/Search/searchEs1/test/1",
-							type: 'post',
-							dataType: 'jsonp',
-							jsonpCallback: "callback" + Math.random().toString().substr(2, 6),
+							url: "json/carJson.json",
+							type: 'get',
+							dataType: 'json',
+							//jsonpCallback: "callback" + Math.random().toString().substr(2, 6),
 							data: params
 						})
 						.done(function(data) {
